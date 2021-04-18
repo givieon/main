@@ -1,219 +1,646 @@
 
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">
 <head>
-<script language="javascript">
-<!--
-function pop(select,form) {
-	if(select.options[0].selected==false) {
-		select.disabled='true';
-		form.rating.value=select.value;
-		openMyPopup("",form.target,170,50);
-		form.submit();
-	} else {
-		alert("Please select your rating");
-	}
-}
-function openMyPopup(url,target,W,H)
-{
-   var X = (screen.width/2)-(W/2);
-   var Y = (screen.height/2)-(H/2);
-   var winPref = "width=" + W + ",height=" + H
-               + ",innerWidth=" + W + ",innerHeight=" + H
-               + ",left=" + X + ",top=" + Y
-               + ",screenX=" + X + ",screenY=" + Y
-               + ",dependent=yes,titlebar=no,scrollbars=no,resizable=no";
-   openMyPopup.popup = window.open( url, target, winPref );
-   openMyPopup.popup.focus();
-   return true;
-}
-//-->
+  <script data-cookieconsent="ignore">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("consent", "default", {
+    ad_storage: "granted",
+    analytics_storage: "granted",
+    wait_for_update: 500,
+  });
+  gtag("set", "ads_data_redaction", false);
 </script>
-<title>Questions</title>
-
-<script language="javascript">
-<!--
-answers=new Array(25);
-for (i=1; i<=25; i++) {answers[i]=0;}
-function verify()
-{
-var i, found=0, error="";
-for (i=1; i<=25; i++)
-    {
-    if (answers[i]==0)
-        {
-        if (error>"") {error=error+", ";}
-        error=error+i;
-        found++;
-        }
-    }
-if (found==1) {alert("You missed question #"+error+"!"); return false;}
-if (found>1) {alert("You missed "+found+" questions: "+error+"!"); return false;}
-}
-//-->
+<!-- Google Tag Manager -->
+<script data-cookieconsent="ignore">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MDL2CNX');</script>
+<!-- End Google Tag Manager -->
+<script defer id="Cookiebot" src="https://consent.cookiebot.com/uc.js"
+        data-cbid="fe7fd807-1a73-44d2-847a-f1a26838713c"
+        data-blockingmode="auto" type="text/javascript">
 </script>
-<meta name=viewport content="width=device-width, initial-scale=1">
-<LINK REL="STYLESHEET" HREF="/sminds.css" TYPE="text/css">
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--[if IE]><![endif]-->
+<link rel="dns-prefetch" href="//honeypot" />
+<link rel="preconnect" href="//honeypot" />
+<link rel="dns-prefetch" href="//d31u95r9ywbjex.cloudfront.net" />
+<link rel="preconnect" href="//d31u95r9ywbjex.cloudfront.net" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="preconnect" href="//fonts.gstatic.com" crossorigin="" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="preconnect" href="//fonts.googleapis.com" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="//d31u95r9ywbjex.cloudfront.net" />
+<!--[if IE 9]>
+<link rel="prefetch" href="//d31u95r9ywbjex.cloudfront.net" />
+<![endif]-->
+<link rel="icon" type="image/png" sizes="16x16" href="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/fav/truity-16x16.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/fav/truity-192x192.png">
+<link rel="apple-touch-icon" sizes="192x192" href="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/fav/truity-192x192.png">
+<meta name="description" content="Free personality test reveals who you REALLY are. Discover the 16 personalities created by Myers and Briggs, test your personality type, and get real advice to make the most of your strengths." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.truity.com/test/type-finder-personality-test-new" />
+<link rel="shortlink" href="https://www.truity.com/node/17725" />
+<meta property="og:site_name" content="Truity" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.truity.com/test/type-finder-personality-test-new" />
+<meta property="og:title" content="The TypeFinder® Personality Test" />
+<meta property="og:description" content="This updated and expanded edition of our bestselling TypeFinder assessment goes deeper than any personality test you&#039;ve taken before. Based on original research into the nuances of personality type, the TypeFinder reveals not only your four-letter personality type code, but exactly how your one-of-a-kind personality profile fits within that type. Your results answer questions like: How can I decide, once and for all, what my type is? Why are there some parts of my personality that don&#039;t seem to fit my type? Why do I get different results when I take different personality tests? The TypeFinder shows how the 23 facets of your personality make up your unique personality fingerprint. You&#039;ll discover how well you match up with all sixteen of the personality type profiles, the parts of your personality that are typical (and atypical) for your type, and how you can deeply understand your individual traits, characteristics, and preferences." />
+<meta property="og:updated_time" content="2021-04-07T10:44:55-07:00" />
+<meta property="og:image" content="https://d31u95r9ywbjex.cloudfront.net/sites/default/files/test_images/test-hero-typefinder_3.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.truity.com/test/type-finder-personality-test-new" />
+<meta name="twitter:title" content="The TypeFinder® Personality Test" />
+<meta name="twitter:image" content="https://d31u95r9ywbjex.cloudfront.net/sites/default/files/test_images/typefinder_2.png" />
+<meta property="article:published_time" content="2021-04-06T09:44:44-07:00" />
+<meta property="article:modified_time" content="2021-04-07T10:44:55-07:00" />
+  <title>Personality Test of Myers &amp; Briggs' 16 Types | TypeFinder®</title>
+  <link type="text/css" rel="stylesheet" href="https://d31u95r9ywbjex.cloudfront.net/sites/default/files/advagg_css/css__1-nB_-hBhPsNFGDVgz9qyv4PhsUb05xkPhFCIAQ2sD0__GLqtT38o8IxronfJ1O_O-NS0R7CRYfZT5TlxYhF_97I__8tuR3DsJ7YP34RhI3JxUY0F_9BjE5pGmPiugkQmcEHQ.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://d31u95r9ywbjex.cloudfront.net/sites/default/files/advagg_js/js__hno1br-c-vyOxmUKyfB-kvVeqSaQGf6a0p2fdhRlsK4__EL3JVhGZrsaCR0mtJVes3cjcxTlD9xAdBNgFY3wk5fc__8tuR3DsJ7YP34RhI3JxUY0F_9BjE5pGmPiugkQmcEHQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bootstrap_truity","theme_token":"pdaszyeWUrn5RrQIvZliX1AILD-bKtXNiOwETNUiqR4","jquery_version":"1.9","css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/paid_personality_tests\/paid_personality_tests.css":1,"sites\/all\/modules\/custom\/uvcharts\/uvcharts.css":1,"sites\/all\/modules\/contrib\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/custom\/truity_custom\/truity_custom.css":1,"sites\/all\/modules\/contrib\/comment_notify\/comment_notify.css":1,"sites\/all\/modules\/modified\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/fancy_radios\/fancy_radios.css":1,"sites\/all\/modules\/contrib\/video\/css\/video.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/modal.css":1,"sites\/all\/modules\/modified\/ajax_register\/css\/ajax-register.css":1,"sites\/all\/modules\/contrib\/fivestar\/css\/fivestar.css":1,"public:\/\/honeypot\/honeypot.css":1,"sites\/all\/modules\/modified\/webform\/css\/webform.css":1,"sites\/all\/modules\/contrib\/hybridauth\/css\/hybridauth.css":1,"sites\/all\/modules\/contrib\/hybridauth\/css\/hybridauth.modal.css":1,"sites\/all\/themes\/bootstrap_truity\/plugins\/icon_pack\/truity\/truity.css":1,"sites\/all\/modules\/contrib\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/themes\/bootstrap_truity\/css\/perfect-scrollbar.css":1,"sites\/all\/themes\/bootstrap_truity\/css\/truity\/common.css":1,"sites\/all\/themes\/bootstrap_truity\/css\/truity\/tests.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/blazy\/blazy.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js":1,"sites\/all\/modules\/modified\/timezone_detect\/jstz.js":1,"misc\/form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/comment_notify\/comment_notify.js":1,"sites\/all\/modules\/contrib\/lazy\/lazy.js":1,"sites\/all\/modules\/custom\/fancy_radios\/fancy_radios.js":1,"sites\/all\/modules\/contrib\/video\/js\/video.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/modal.js":1,"sites\/all\/modules\/modified\/ajax_register\/js\/ajax-register.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/modules\/modified\/webform\/js\/webform.js":1,"sites\/all\/themes\/bootstrap_truity\/javascripts\/personality-test-page.js":1,"sites\/all\/modules\/contrib\/hybridauth\/js\/hybridauth.modal.js":1,"sites\/all\/modules\/contrib\/hybridauth\/js\/hybridauth.onclick.js":1,"sites\/all\/modules\/custom\/truity_custom\/truity_custom.js":1,"sites\/all\/modules\/contrib\/hide_submit\/js\/hide_submit.js":1,"sites\/all\/libraries\/share42\/share42.js":1,"sites\/all\/themes\/bootstrap_truity\/javascripts\/bootstrap.min.js":1,"sites\/all\/themes\/bootstrap_truity\/javascripts\/jquery.mobile.touch.min.js":1,"sites\/all\/themes\/bootstrap_truity\/javascripts\/bootstrap-truity.js":1,"sites\/all\/themes\/bootstrap_truity\/javascripts\/perfect-scrollbar.jquery.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/ctools\/js\/modal.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1}},"hide_submit":{"hide_submit_status":true,"hide_submit_method":"hide","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Please wait","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":false,"hide_submit_reset_time":10000},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003Cimg class=\u0022img-responsive\u0022 src=\u0022https:\/\/d31u95r9ywbjex.cloudfront.net\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","throbber":"\u003Cimg class=\u0022img-responsive\u0022 src=\u0022https:\/\/www.truity.com\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\u0022 alt=\u0022Loading\u0022 title=\u0022Loading...\u0022 \/\u003E"},"ctools-ajax-register-style":{"modalSize":{"type":"fixed","width":550,"height":140,"contentRight":30,"contentBottom":0},"modalOptions":{"opacity":0.5,"background-color":"#727272"},"closeText":"","throbber":"\u003Cimg class=\u0022img-responsive\u0022 src=\u0022https:\/\/www.truity.com\/sites\/all\/modules\/modified\/ajax_register\/images\/ajax-loader.gif\u0022 alt=\u0022\u0022 \/\u003E","animation":"fadeIn","animationSpeed":"fast"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:ce5934f6be0cd43f6ff6ddcb1e2f4bb3":{"view_name":"reviews_of_the_typefinder","view_display_id":"block_6","view_args":"","view_path":"node\/17725","view_base_path":"view\/typefinder-new-reviews","view_dom_id":"ce5934f6be0cd43f6ff6ddcb1e2f4bb3","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/test\/type-finder-personality-test-new":true,"\/system\/ajax":true,"\/test\/type-finder-personality-test-new?destination=node\/17725":true},"field_group":{"html-element":"full"},"ajax":{"edit-submit":{"callback":"ajax_register_user_login_ajax_callback","wrapper":"ajax-register-user-login-block-wrapper","event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Log in"}}},"lazy":{"errorClass":"b-error","loadInvisible":true,"offset":100,"saveViewportOffsetDelay":50,"selector":".b-lazy","src":"data-src","successClass":"b-loaded","validateDelay":25},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+//--><!]]>
+</script>
 </head>
+<body role="document" class="html not-front not-logged-in no-sidebars page-node page-node- page-node-17725 node-type-personality-test domain-www-truity-com page-node-view">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDL2CNX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->  <header id="navbar" role="banner" class="navbar navbar-default">
+  <div class="panel container">
+    <div class="navbar-header">
+              <button type="button" class="navbar-toggle navbar-toggle-1" data-toggle="collapse" data-parent="#navbar" data-target=".navbar-collapse">
+          <div class="navbar-toggle-text">Menu</div>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+      
+      
+              <button type="button" class="navbar-toggle navbar-toggle-2" data-toggle="collapse" data-parent="#navbar" data-target=".navbar-collapse-2">
+          <div class="navbar-toggle-text">Log in</div>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+      
+              <a class="logo navbar-btn" href="/" title="Home">
+          <img src="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/truity_logo.png" alt="Home" />
+        </a>
+      
+          </div>
 
-    <body  bgcolor="#eeeeee" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tr>
-                                <td width="0%" bgcolor="#16163c"><img src="/minibarcode3.gif" width="22" height="17" border="0" align="top"><font color="white"><a class="header" href="/index.html">similarminds.com</a></font></td>
-                                <td bgcolor="#16163c">
-                                        <div align="right">
-						 &nbsp;</div>
-                                </td>
-                        </tr>
-                </table>
+          <div class="navbar-collapse-2 collapse">
+        <nav role="navigation">
+                  </nav>
+                    <div class="region region-navigation">
+    <section id="block-ajax-register-ajax-register-block" class="block block-ajax-register clearfix">
+
+      
+  <ul class="ajax-register-links inline menu nav navbar-nav secondary"><li><a href="/ajax_register/login/nojs" class="ctools-use-modal ctools-modal-ctools-ajax-register-style" rel="nofollow" title="Login">Login</a></li>
+<li><a href="/ajax_register/register/nojs" class="ctools-use-modal ctools-modal-ctools-ajax-register-style" rel="nofollow" title="Create new account">Create new account</a></li>
+</ul>
+</section>
+<section id="block-user-login" class="block block-user clearfix">
+
+        <h2 class="block-title">Log In</h2>
+    
+  <div id="ajax-register-user-login-block-wrapper"><form action="/test/type-finder-personality-test-new?destination=node/17725" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-item-name form-type-textfield form-group"> <label class="control-label" for="edit-name"><span class="label-text">E-mail <span class="form-required" title="This field is required.">*</span></span></label>
+<input placeholder="E-mail" class="form-control form-text required" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" /></div> <div class="form-item form-item-pass form-type-password form-group"> <label class="control-label" for="edit-pass"><span class="label-text">Password <span class="form-required" title="This field is required.">*</span></span></label>
+<input placeholder="Password" class="form-control form-text required" type="password" id="edit-pass" name="pass" size="15" maxlength="128" /></div><input type="hidden" name="form_build_id" value="form-zlMtyI6xh0S6IvnnPB3IONR7zq4kctkWSTSRmH6l6dA" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper form-group" id="edit-actions--2"><button class="ctools-modal-ctools-ajax-register-style btn btn-default form-submit" type="submit" id="edit-submit" name="op" value="Log in">Log in</button>
+</div><ul class="list-inline"><li><a href="/user/register" title="Create a new user account.">Create new account</a></li>
+<li><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul><div class="hybridauth-widget-wrapper">
+  <div class="hybridauth-widget-title">Or</div>
+  <div class="hybridauth-widget">
+          <div class="hybridauth-button">
+        <a href="/hybridauth/window/Google?destination=node/17725&amp;destination_error=node/17725" title="Google" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="Google" data-hybridauth-url="/hybridauth/window/Google?destination=node/17725&amp;destination_error=node/17725" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon google hybridauth-icon-truity hybridauth-google hybridauth-google-truity"
+      title="Google"></span>
+<span class="label">Log in with  Google</span>
+</a>      </div>
+          <div class="hybridauth-button">
+        <a href="/hybridauth/window/Facebook?destination=node/17725&amp;destination_error=node/17725" title="Facebook" class="hybridauth-widget-provider hybridauth-onclick-popup" rel="nofollow" data-hybridauth-provider="Facebook" data-hybridauth-url="/hybridauth/window/Facebook?destination=node/17725&amp;destination_error=node/17725" data-ajax="false" data-hybridauth-width="800" data-hybridauth-height="500"><span class="hybridauth-icon facebook hybridauth-icon-truity hybridauth-facebook hybridauth-facebook-truity"
+      title="Facebook"></span>
+<span class="label">Log in with  Facebook</span>
+</a>      </div>
+      </div>
+</div>
+</div></form></div>
+</section>
+  </div>
+              </div>
+              <div class="navbar-collapse collapse">
+        <nav role="navigation">
+                      <ul class="menu nav navbar-nav"><li class="first expanded active-trail dropdown"><a href="/test/type-finder-personality-test-new-std" class="active-trail dropdown-toggle" data-target="#" data-toggle="dropdown">Personality Tests <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf active-trail active"><a href="/test/type-finder-personality-test-new" title="" class="active-trail active">Personality Test (Myers &amp; Briggs&#039; 16 Types)</a></li>
+<li class="leaf"><a href="/test/enneagram-personality-test">Enneagram Test</a></li>
+<li class="leaf"><a href="/test/big-five-personality-test">Big Five Personality Test</a></li>
+<li class="leaf"><a href="/view/tests/personality-career">Career Tests</a></li>
+<li class="leaf"><a href="/test/disc-personality-test">DISC Assessment</a></li>
+<li class="last leaf"><a href="/view/tests/more" title="">Other Tests</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/page/personality-tests-business" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">For Business <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/test/type-finder-workplace" title="Workplace personality test based on Myers and Briggs&#039; 16 types">16 Personalities Test for Business</a></li>
+<li class="leaf"><a href="/test/enneagram-personality-test-business">Enneagram for Business</a></li>
+<li class="leaf"><a href="/page/personality-tests-business" title="">How to Test Your Team</a></li>
+<li class="leaf"><a href="/page/personality-assessments-hiring">Personality Tests for Hiring</a></li>
+<li class="last leaf"><a href="/form/personality-test-api">Personality Test API</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/page/16-personality-types-myers-briggs" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Myers Briggs Types <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/page/16-personality-types-myers-briggs">The 16 Types</a></li>
+<li class="leaf"><a href="/personality-type/INFP" title="">INFP</a></li>
+<li class="leaf"><a href="/personality-type/INFJ" title="">INFJ</a></li>
+<li class="leaf"><a href="/personality-type/ENFP" title="">ENFP</a></li>
+<li class="leaf"><a href="/personality-type/ENFJ" title="">ENFJ</a></li>
+<li class="leaf"><a href="/personality-type/INTP" title="">INTP</a></li>
+<li class="leaf"><a href="/personality-type/INTJ" title="">INTJ</a></li>
+<li class="leaf"><a href="/personality-type/ENTP" title="">ENTP</a></li>
+<li class="leaf"><a href="/personality-type/ENTJ" title="">ENTJ</a></li>
+<li class="leaf"><a href="/personality-type/ISTP" title="">ISTP</a></li>
+<li class="leaf"><a href="/personality-type/ISFP" title="">ISFP</a></li>
+<li class="leaf"><a href="/personality-type/ISTJ" title="">ISTJ</a></li>
+<li class="leaf"><a href="/personality-type/ISFJ" title="">ISFJ</a></li>
+<li class="leaf"><a href="/personality-type/ESTP" title="">ESTP</a></li>
+<li class="leaf"><a href="/personality-type/ESFP" title="">ESFP</a></li>
+<li class="leaf"><a href="/personality-type/ESTJ" title="">ESTJ</a></li>
+<li class="leaf"><a href="/personality-type/ESFJ" title="">ESFJ</a></li>
+<li class="leaf"><a href="/myers-briggs/about-myers-briggs-personality-typing" title="">What is the MBTI®?</a></li>
+<li class="last leaf"><a href="/page/personality-type-interactions-compatibility">Types &amp; Compatibility</a></li>
+</ul></li>
+<li class="last expanded dropdown"><a href="/enneagram/9-types-enneagram" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Enneagram Types <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/enneagram/9-types-enneagram" title="">The 9 Types</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-1-perfectionist">Type One</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-2-giver">Type Two</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-3-achiever">Type Three</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-4-individualist">Type Four</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-5-investigator">Type Five</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-6-skeptic">Type Six</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-7-enthusiast">Type Seven</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-8-challenger">Type Eight</a></li>
+<li class="leaf"><a href="/enneagram/personality-type-9-peacemaker">Type Nine</a></li>
+<li class="last leaf"><a href="/enneagram/what-is-enneagram" title="">What is the Enneagram?</a></li>
+</ul></li>
+</ul>                  </nav>
+      </div>
+      </div>
+</header>
+
+<header role="banner" id="page-header">
+  
+    <div class="region region-header">
+    <section id="block-share42-share42" class="block block-share42 clearfix">
+
+      
+  <div id="share42-block-1618750221" class="share42init" data-url="" data-title="" data-image="" data-description="" data-path="https://d31u95r9ywbjex.cloudfront.net/sites/all/libraries/share42/" data-icons-file="icons.png" data-zero-counter="0" data-top1="346" data-top2="50" data-margin="-40"></div>
+</section>
+  </div>
+</header> <!-- /#page-header -->
+
+<div  class="page-title-ribbon-extended page-test-header-ribbon clearfix  is-first-test-page " style="background-color: #0B3C47;">
+  <div class="page-header-wrapper">
+    <div class="page-extended-wrapper">
+              <div  class="page-header-bg-image b-lazy" data-src="https://d31u95r9ywbjex.cloudfront.net/sites/default/files/styles/original/public/test_images/test-hero-typefinder_3.png?itok=ou6z0qQY"></div>
+            <div class="page-title-text-wrapper">
+        <h1 class="page-header">The TypeFinder® Personality Test</h1>
+        <hr>
+                  <h2 class="page-subhead">Beyond Briggs Myers&#039; 16 Types, Find Your True Strengths.</h2>
+                              </div>
+    </div>
+  </div>
+  </div>
+
+<div class="main-container container">
+    
+  <div class="row">
+
+    
+    <section class="col-md-12">
+            <a id="main-content"></a>
+                                              <div class="region region-content">
+    <section id="block-truity-custom-tests-taken" class="block block-truity-custom clearfix">
+
+      
+  <div id="tests-taken">
+<div style="font-size: 60px; color: #edb61b; font-weight: bold; margin: 10px auto; text-align: center;">1,218,097</div>
+<div style="margin: 24px 0; font-size: 16px; text-align:center; font-weight:bold;">TESTS TAKEN IN THE LAST 30 DAYS
+</div>
+</div>
+</section>
+<section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div id="node-17725" class="node node-personality-test clearfix">
+  <div class="content">
+    <form class="webform-client-form webform-client-form-17725" enctype="multipart/form-data" action="/test/type-finder-personality-test-new" method="post" id="webform-client-form-17725" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-markup webform-component--scale-wrapper-2 form-group">
+ <div class="scale">
+</div>
+<div  class="form-item webform-component webform-component-markup webform-component--intro-text form-group">
+ <div style="clear:both;">
+<p>This free personality test reveals who you <em>really</em> are. Discover the 16 personalities created by Myers & Briggs, test your personality type, and find your strengths.</p>
+
+<p>To take the personality test, mark your answers based on how well each statement describes you.</p>
+</div>
+
+</div>
+<div  class="form-item webform-component webform-component-markup webform-component--question-header-1 form-group">
+ <div class="question-header space-60 clearfix">
+<div class="header-labels header-labels-3">
+  <div class="question-header-label" id="accurate">Accurate</div>
+  <div class="question-header-label" id="neutral">Neutral</div>
+  <div class="question-header-label" id="inaccurate">Inaccurate</div>
+</div>
+</div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--e3-3 form-group">
+  <label class="control-label" for="edit-submitted-e3-3"><span class="label-text">I try not to draw attention to myself <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-e3-3" class="form-radios"><div class="form-item form-item-submitted-e3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-3-1"><input required="required" type="radio" id="edit-submitted-e3-3-1" name="submitted[e3_3]" value="5" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-e3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-3-2"><input required="required" type="radio" id="edit-submitted-e3-3-2" name="submitted[e3_3]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-3-3"><input required="required" type="radio" id="edit-submitted-e3-3-3" name="submitted[e3_3]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-e3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-3-4"><input required="required" type="radio" id="edit-submitted-e3-3-4" name="submitted[e3_3]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-3-5"><input required="required" type="radio" id="edit-submitted-e3-3-5" name="submitted[e3_3]" value="1" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--f3-4 form-group">
+  <label class="control-label" for="edit-submitted-f3-4"><span class="label-text">I feel uncomfortable when I disagree with someone <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-f3-4" class="form-radios"><div class="form-item form-item-submitted-f3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-4-1"><input required="required" type="radio" id="edit-submitted-f3-4-1" name="submitted[f3_4]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-f3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-4-2"><input required="required" type="radio" id="edit-submitted-f3-4-2" name="submitted[f3_4]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-4-3"><input required="required" type="radio" id="edit-submitted-f3-4-3" name="submitted[f3_4]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-f3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-4-4"><input required="required" type="radio" id="edit-submitted-f3-4-4" name="submitted[f3_4]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-4-5"><input required="required" type="radio" id="edit-submitted-f3-4-5" name="submitted[f3_4]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--j1-1 form-group">
+  <label class="control-label" for="edit-submitted-j1-1"><span class="label-text">I lose my belongings <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-j1-1" class="form-radios"><div class="form-item form-item-submitted-j1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j1-1-1"><input required="required" type="radio" id="edit-submitted-j1-1-1" name="submitted[j1_1]" value="5" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-j1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j1-1-2"><input required="required" type="radio" id="edit-submitted-j1-1-2" name="submitted[j1_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j1-1-3"><input required="required" type="radio" id="edit-submitted-j1-1-3" name="submitted[j1_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-j1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j1-1-4"><input required="required" type="radio" id="edit-submitted-j1-1-4" name="submitted[j1_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j1-1-5"><input required="required" type="radio" id="edit-submitted-j1-1-5" name="submitted[j1_1]" value="1" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--n1-1 form-group">
+  <label class="control-label" for="edit-submitted-n1-1"><span class="label-text">I have a vivid imagination <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-n1-1" class="form-radios"><div class="form-item form-item-submitted-n1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n1-1-1"><input required="required" type="radio" id="edit-submitted-n1-1-1" name="submitted[n1_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-n1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n1-1-2"><input required="required" type="radio" id="edit-submitted-n1-1-2" name="submitted[n1_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n1-1-3"><input required="required" type="radio" id="edit-submitted-n1-1-3" name="submitted[n1_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-n1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n1-1-4"><input required="required" type="radio" id="edit-submitted-n1-1-4" name="submitted[n1_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n1-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n1-1-5"><input required="required" type="radio" id="edit-submitted-n1-1-5" name="submitted[n1_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--e3-2 form-group">
+  <label class="control-label" for="edit-submitted-e3-2"><span class="label-text">I would enjoy attending a large party in my honor <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-e3-2" class="form-radios"><div class="form-item form-item-submitted-e3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-2-1"><input required="required" type="radio" id="edit-submitted-e3-2-1" name="submitted[e3_2]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-e3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-2-2"><input required="required" type="radio" id="edit-submitted-e3-2-2" name="submitted[e3_2]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-2-3"><input required="required" type="radio" id="edit-submitted-e3-2-3" name="submitted[e3_2]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-e3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-2-4"><input required="required" type="radio" id="edit-submitted-e3-2-4" name="submitted[e3_2]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-2-5"><input required="required" type="radio" id="edit-submitted-e3-2-5" name="submitted[e3_2]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--f3-3 form-group">
+  <label class="control-label" for="edit-submitted-f3-3"><span class="label-text">I dislike being in competition with others <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-f3-3" class="form-radios"><div class="form-item form-item-submitted-f3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-3-1"><input required="required" type="radio" id="edit-submitted-f3-3-1" name="submitted[f3_3]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-f3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-3-2"><input required="required" type="radio" id="edit-submitted-f3-3-2" name="submitted[f3_3]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-3-3"><input required="required" type="radio" id="edit-submitted-f3-3-3" name="submitted[f3_3]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-f3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-3-4"><input required="required" type="radio" id="edit-submitted-f3-3-4" name="submitted[f3_3]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-3-5"><input required="required" type="radio" id="edit-submitted-f3-3-5" name="submitted[f3_3]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--j2-1 form-group">
+  <label class="control-label" for="edit-submitted-j2-1"><span class="label-text">I prefer to follow a schedule <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-j2-1" class="form-radios"><div class="form-item form-item-submitted-j2-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j2-1-1"><input required="required" type="radio" id="edit-submitted-j2-1-1" name="submitted[j2_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-j2-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j2-1-2"><input required="required" type="radio" id="edit-submitted-j2-1-2" name="submitted[j2_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j2-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j2-1-3"><input required="required" type="radio" id="edit-submitted-j2-1-3" name="submitted[j2_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-j2-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j2-1-4"><input required="required" type="radio" id="edit-submitted-j2-1-4" name="submitted[j2_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j2-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j2-1-5"><input required="required" type="radio" id="edit-submitted-j2-1-5" name="submitted[j2_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--n3-3 form-group">
+  <label class="control-label" for="edit-submitted-n3-3"><span class="label-text">I question the wisdom of my elders <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-n3-3" class="form-radios"><div class="form-item form-item-submitted-n3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-3-1"><input required="required" type="radio" id="edit-submitted-n3-3-1" name="submitted[n3_3]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-n3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-3-2"><input required="required" type="radio" id="edit-submitted-n3-3-2" name="submitted[n3_3]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-3-3"><input required="required" type="radio" id="edit-submitted-n3-3-3" name="submitted[n3_3]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-n3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-3-4"><input required="required" type="radio" id="edit-submitted-n3-3-4" name="submitted[n3_3]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n3-3 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-3-5"><input required="required" type="radio" id="edit-submitted-n3-3-5" name="submitted[n3_3]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--e3-1 form-group">
+  <label class="control-label" for="edit-submitted-e3-1"><span class="label-text">I enjoy being the center of attention <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-e3-1" class="form-radios"><div class="form-item form-item-submitted-e3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-1-1"><input required="required" type="radio" id="edit-submitted-e3-1-1" name="submitted[e3_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-e3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-1-2"><input required="required" type="radio" id="edit-submitted-e3-1-2" name="submitted[e3_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-1-3"><input required="required" type="radio" id="edit-submitted-e3-1-3" name="submitted[e3_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-e3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-1-4"><input required="required" type="radio" id="edit-submitted-e3-1-4" name="submitted[e3_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-1-5"><input required="required" type="radio" id="edit-submitted-e3-1-5" name="submitted[e3_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--f3-1 form-group">
+  <label class="control-label" for="edit-submitted-f3-1"><span class="label-text">I try to avoid conflict <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-f3-1" class="form-radios"><div class="form-item form-item-submitted-f3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-1-1"><input required="required" type="radio" id="edit-submitted-f3-1-1" name="submitted[f3_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-f3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-1-2"><input required="required" type="radio" id="edit-submitted-f3-1-2" name="submitted[f3_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-1-3"><input required="required" type="radio" id="edit-submitted-f3-1-3" name="submitted[f3_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-f3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-1-4"><input required="required" type="radio" id="edit-submitted-f3-1-4" name="submitted[f3_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f3-1-5"><input required="required" type="radio" id="edit-submitted-f3-1-5" name="submitted[f3_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--j3-1 form-group">
+  <label class="control-label" for="edit-submitted-j3-1"><span class="label-text">I make sure my work is finished on time <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-j3-1" class="form-radios"><div class="form-item form-item-submitted-j3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j3-1-1"><input required="required" type="radio" id="edit-submitted-j3-1-1" name="submitted[j3_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-j3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j3-1-2"><input required="required" type="radio" id="edit-submitted-j3-1-2" name="submitted[j3_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j3-1-3"><input required="required" type="radio" id="edit-submitted-j3-1-3" name="submitted[j3_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-j3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j3-1-4"><input required="required" type="radio" id="edit-submitted-j3-1-4" name="submitted[j3_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j3-1-5"><input required="required" type="radio" id="edit-submitted-j3-1-5" name="submitted[j3_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--n3-1 form-group">
+  <label class="control-label" for="edit-submitted-n3-1"><span class="label-text">It is important to me to follow traditions <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-n3-1" class="form-radios"><div class="form-item form-item-submitted-n3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-1-1"><input required="required" type="radio" id="edit-submitted-n3-1-1" name="submitted[n3_1]" value="5" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-n3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-1-2"><input required="required" type="radio" id="edit-submitted-n3-1-2" name="submitted[n3_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-1-3"><input required="required" type="radio" id="edit-submitted-n3-1-3" name="submitted[n3_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-n3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-1-4"><input required="required" type="radio" id="edit-submitted-n3-1-4" name="submitted[n3_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n3-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-1-5"><input required="required" type="radio" id="edit-submitted-n3-1-5" name="submitted[n3_1]" value="1" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--e3-4 form-group">
+  <label class="control-label" for="edit-submitted-e3-4"><span class="label-text">I make an effort to be popular <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-e3-4" class="form-radios"><div class="form-item form-item-submitted-e3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-4-1"><input required="required" type="radio" id="edit-submitted-e3-4-1" name="submitted[e3_4]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-e3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-4-2"><input required="required" type="radio" id="edit-submitted-e3-4-2" name="submitted[e3_4]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-4-3"><input required="required" type="radio" id="edit-submitted-e3-4-3" name="submitted[e3_4]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-e3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-4-4"><input required="required" type="radio" id="edit-submitted-e3-4-4" name="submitted[e3_4]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-4 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-4-5"><input required="required" type="radio" id="edit-submitted-e3-4-5" name="submitted[e3_4]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--f4-1 form-group">
+  <label class="control-label" for="edit-submitted-f4-1"><span class="label-text">I sympathize with the homeless <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-f4-1" class="form-radios"><div class="form-item form-item-submitted-f4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-1-1"><input required="required" type="radio" id="edit-submitted-f4-1-1" name="submitted[f4_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-f4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-1-2"><input required="required" type="radio" id="edit-submitted-f4-1-2" name="submitted[f4_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-1-3"><input required="required" type="radio" id="edit-submitted-f4-1-3" name="submitted[f4_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-f4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-1-4"><input required="required" type="radio" id="edit-submitted-f4-1-4" name="submitted[f4_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-1-5"><input required="required" type="radio" id="edit-submitted-f4-1-5" name="submitted[f4_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--j4-1 form-group">
+  <label class="control-label" for="edit-submitted-j4-1"><span class="label-text">I have trouble controlling my impulses <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-j4-1" class="form-radios"><div class="form-item form-item-submitted-j4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j4-1-1"><input required="required" type="radio" id="edit-submitted-j4-1-1" name="submitted[j4_1]" value="5" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-j4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j4-1-2"><input required="required" type="radio" id="edit-submitted-j4-1-2" name="submitted[j4_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j4-1-3"><input required="required" type="radio" id="edit-submitted-j4-1-3" name="submitted[j4_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-j4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j4-1-4"><input required="required" type="radio" id="edit-submitted-j4-1-4" name="submitted[j4_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j4-1-5"><input required="required" type="radio" id="edit-submitted-j4-1-5" name="submitted[j4_1]" value="1" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--n4-1 form-group">
+  <label class="control-label" for="edit-submitted-n4-1"><span class="label-text">I think about why people do the things they do <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-n4-1" class="form-radios"><div class="form-item form-item-submitted-n4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n4-1-1"><input required="required" type="radio" id="edit-submitted-n4-1-1" name="submitted[n4_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-n4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n4-1-2"><input required="required" type="radio" id="edit-submitted-n4-1-2" name="submitted[n4_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n4-1-3"><input required="required" type="radio" id="edit-submitted-n4-1-3" name="submitted[n4_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-n4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n4-1-4"><input required="required" type="radio" id="edit-submitted-n4-1-4" name="submitted[n4_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n4-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-n4-1-5"><input required="required" type="radio" id="edit-submitted-n4-1-5" name="submitted[n4_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--e3-5 form-group">
+  <label class="control-label" for="edit-submitted-e3-5"><span class="label-text">Being around lots of people energizes me <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-e3-5" class="form-radios"><div class="form-item form-item-submitted-e3-5 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-5-1"><input required="required" type="radio" id="edit-submitted-e3-5-1" name="submitted[e3_5]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-e3-5 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-5-2"><input required="required" type="radio" id="edit-submitted-e3-5-2" name="submitted[e3_5]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-5 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-5-3"><input required="required" type="radio" id="edit-submitted-e3-5-3" name="submitted[e3_5]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-e3-5 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-5-4"><input required="required" type="radio" id="edit-submitted-e3-5-4" name="submitted[e3_5]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e3-5 form-type-radio radio"> <label class="control-label" for="edit-submitted-e3-5-5"><input required="required" type="radio" id="edit-submitted-e3-5-5" name="submitted[e3_5]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--f4-2 form-group">
+  <label class="control-label" for="edit-submitted-f4-2"><span class="label-text">I am helpful to the people around me <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-f4-2" class="form-radios"><div class="form-item form-item-submitted-f4-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-2-1"><input required="required" type="radio" id="edit-submitted-f4-2-1" name="submitted[f4_2]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-f4-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-2-2"><input required="required" type="radio" id="edit-submitted-f4-2-2" name="submitted[f4_2]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f4-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-2-3"><input required="required" type="radio" id="edit-submitted-f4-2-3" name="submitted[f4_2]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-f4-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-2-4"><input required="required" type="radio" id="edit-submitted-f4-2-4" name="submitted[f4_2]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-f4-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-f4-2-5"><input required="required" type="radio" id="edit-submitted-f4-2-5" name="submitted[f4_2]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--j5-1 form-group">
+  <label class="control-label" for="edit-submitted-j5-1"><span class="label-text">I am ambitious <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-j5-1" class="form-radios"><div class="form-item form-item-submitted-j5-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j5-1-1"><input required="required" type="radio" id="edit-submitted-j5-1-1" name="submitted[j5_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-j5-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j5-1-2"><input required="required" type="radio" id="edit-submitted-j5-1-2" name="submitted[j5_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j5-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j5-1-3"><input required="required" type="radio" id="edit-submitted-j5-1-3" name="submitted[j5_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-j5-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j5-1-4"><input required="required" type="radio" id="edit-submitted-j5-1-4" name="submitted[j5_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-j5-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-j5-1-5"><input required="required" type="radio" id="edit-submitted-j5-1-5" name="submitted[j5_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--n3-2 form-group">
+  <label class="control-label" for="edit-submitted-n3-2"><span class="label-text">I like to do things as they were done in the past <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-n3-2" class="form-radios"><div class="form-item form-item-submitted-n3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-2-1"><input required="required" type="radio" id="edit-submitted-n3-2-1" name="submitted[n3_2]" value="5" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-n3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-2-2"><input required="required" type="radio" id="edit-submitted-n3-2-2" name="submitted[n3_2]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-2-3"><input required="required" type="radio" id="edit-submitted-n3-2-3" name="submitted[n3_2]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-n3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-2-4"><input required="required" type="radio" id="edit-submitted-n3-2-4" name="submitted[n3_2]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-n3-2 form-type-radio radio"> <label class="control-label" for="edit-submitted-n3-2-5"><input required="required" type="radio" id="edit-submitted-n3-2-5" name="submitted[n3_2]" value="1" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-radios webform-component--e6-1 form-group">
+  <label class="control-label" for="edit-submitted-e6-1"><span class="label-text">I avoid being alone <span class="form-required" title="This field is required.">*</span></span></label>
+ <div required="required" id="edit-submitted-e6-1" class="form-radios"><div class="form-item form-item-submitted-e6-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e6-1-1"><input required="required" type="radio" id="edit-submitted-e6-1-1" name="submitted[e6_1]" value="1" class="form-radio" /><span class="label-text">Inaccurate </span></label>
+</div><div class="form-item form-item-submitted-e6-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e6-1-2"><input required="required" type="radio" id="edit-submitted-e6-1-2" name="submitted[e6_1]" value="2" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e6-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e6-1-3"><input required="required" type="radio" id="edit-submitted-e6-1-3" name="submitted[e6_1]" value="3" class="form-radio" /><span class="label-text">Neutral </span></label>
+</div><div class="form-item form-item-submitted-e6-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e6-1-4"><input required="required" type="radio" id="edit-submitted-e6-1-4" name="submitted[e6_1]" value="4" class="form-radio" /><span class="label-text"> </span></label>
+</div><div class="form-item form-item-submitted-e6-1 form-type-radio radio"> <label class="control-label" for="edit-submitted-e6-1-5"><input required="required" type="radio" id="edit-submitted-e6-1-5" name="submitted[e6_1]" value="5" class="form-radio" /><span class="label-text">Accurate </span></label>
+</div></div>
+</div>
+<div  class="form-item webform-component webform-component-markup webform-component--footer-1 form-group">
+ <div class="question-footer"> </div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="7" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-GaNGqoXGzBpw9JF3NEVItqOFO0lQUE_zlQVGV2VEqp0" />
+<input type="hidden" name="form_id" value="webform_client_form_17725" />
+<div class="url-textfield"><div class="form-item form-item-url form-type-textfield form-group"> <label class="control-label" for="edit-url"><span class="label-text">Leave this field blank </span></label>
+<input autocomplete="off" class="form-control form-text" type="text" id="edit-url" name="url" value="" size="20" maxlength="128" /></div></div><div class="webform-progressbar">
+      <div class="webform-progressbar-number">
+      Step 1 of 7          </div>
+  
+      <div class="webform-progressbar-outer">
+              <span class="webform-progressbar-page current">
+          <span class="webform-progressbar-page-number">1</span>
+                  </span>
+              <span class="webform-progressbar-page">
+          <span class="webform-progressbar-page-number">2</span>
+                  </span>
+              <span class="webform-progressbar-page">
+          <span class="webform-progressbar-page-number">3</span>
+                  </span>
+              <span class="webform-progressbar-page">
+          <span class="webform-progressbar-page-number">4</span>
+                  </span>
+              <span class="webform-progressbar-page">
+          <span class="webform-progressbar-page-number">5</span>
+                  </span>
+              <span class="webform-progressbar-page">
+          <span class="webform-progressbar-page-number">6</span>
+                  </span>
+              <span class="webform-progressbar-page">
+          <span class="webform-progressbar-page-number">7</span>
+                  </span>
+          </div>
+  
+  </div>
+<div class="form-actions"><button class="webform-next button-primary btn btn-default form-submit" type="submit" name="op" value="Next Page &gt;">Next Page ></button>
+</div></div></form>  </div>
+</div>
+
+</section>
+  </div>
+                <div class="region region-content-bottom">
+    <section id="block-views-a42d55428002bfa3fa938ef70225fb80" class="block block-views clearfix">
+
+        <h2 class="block-title">Recent Reviews</h2>
+    
+  <div class="view view-reviews-of-the-typefinder view-id-reviews_of_the_typefinder view-display-id-block_6 view-dom-id-ce5934f6be0cd43f6ff6ddcb1e2f4bb3">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="right-align">        <strong><div class="review-date">April 11, 2021 - 3:32am</div></strong>  </div>  
+  <div class="views-field views-field-value-4">        <span class="field-content"><div class="fivestar-default"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></span>  </div>  
+  <div class="views-field views-field-value">        <span class="field-content"><h6>by Hannah </h6></span>  </div>  
+  <div class="views-field views-field-value-3">        <span class="field-content"><a href=" "> </a></span>  </div>  
+  <div class="views-field views-field-value-2">        <span class="field-content"><div class="webform-long-answer">It‘s amazing how precise the results seem to describe my personality. What I love is the fact that there is so much value in all types and that we need all of them to function as a society. This test focuses on strengths and not on deficits. Love it! </div></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div>&nbsp;</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="right-align">        <strong><div class="review-date">April 2, 2021 - 1:31pm</div></strong>  </div>  
+  <div class="views-field views-field-value-4">        <span class="field-content"><div class="fivestar-default"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></span>  </div>  
+  <div class="views-field views-field-value">        <span class="field-content"><h6>by Maxim</h6></span>  </div>  
+  <div class="views-field views-field-value-3">        <span class="field-content"><a href=" "> </a></span>  </div>  
+  <div class="views-field views-field-value-2">        <span class="field-content"><div class="webform-long-answer">I discovered a lot about myself, almost all results are deeply resonated with what I actually feel about myself. I will be considering my future career and personal choices with deeper understanding and awareness of my strengths and my natural abilities.</div></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div>&nbsp;</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="right-align">        <strong><div class="review-date">April 1, 2021 - 7:17pm</div></strong>  </div>  
+  <div class="views-field views-field-value-4">        <span class="field-content"><div class="fivestar-default"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><div class="star star-1 star-odd star-first"><span class="on">5</span></div><div class="star star-2 star-even"><span class="on"></span></div><div class="star star-3 star-odd"><span class="on"></span></div><div class="star star-4 star-even"><span class="on"></span></div><div class="star star-5 star-odd star-last"><span class="on"></span></div></div></div></span>  </div>  
+  <div class="views-field views-field-value">        <span class="field-content"><h6>by Michael Davis</h6></span>  </div>  
+  <div class="views-field views-field-value-3">        <span class="field-content"><a href=" "> </a></span>  </div>  
+  <div class="views-field views-field-value-2">        <span class="field-content"><div class="webform-long-answer">Very informative!  I found out some things that I didn&#039;t know about myself.  This would be great for young adults that don&#039;t know what they want to do in life.</div></span>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div>&nbsp;</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div> </div>    </div>
+  
+  
+</div>
+</section>
+<section id="block-block-72" class="block block-block clearfix">
+
+        <h2 class="block-title">FAQ</h2>
+    
+  <p><b>Q. </b>What is this personality test based on?</p>
+<p><b>A. </b> This test is based on the personality theory created by Isabel Myers and Katharine Briggs. It measures your preferences on Myers and Briggs' four dimensions of personality type, as well as 23 more detailed facets of type to personalize your results.</p>
+<p><b>Q. </b>How long is this personality test?</p>
+<p><b>A. </b>The test consists of 130 questions and takes about 10-15 minutes to complete.</p>
+<p><b>Q. </b>What will my results for this test look like?</p>
+<p><b>A. </b>You will first see a brief, free report showing the key points from your results. After reviewing your brief report, you then have the option to unlock your full report for a small fee. To see what you can expect from your full report, see this <a href="/sites/default/files/tfsamplereport.html">sample report</a>. </p>
+<p><b>Q. </b>Where can I find more information about the 16 personalities?</p>
+<p><b>A. </b>You can find comprehensive profiles of each of Myers and Briggs' personality types here: <a href="/personality-type/INFP">INFP</a> • <a href="/personality-type/INFJ">INFJ</a> • <a href="/personality-type/INTP">INTP</a> • <a href="/personality-type/INTJ">INTJ</a> • <a href="/personality-type/ENFP">ENFP</a> • <a href="/personality-type/ENFJ">ENFJ</a> • <a href="/personality-type/ENTP">ENTP</a> • <a href="/personality-type/ENTJ">ENTJ</a> • <a href="/personality-type/ISFP">ISFP</a> • <a href="/personality-type/ISFJ">ISFJ</a> • <a href="/personality-type/ISTP">ISTP</a> • <a href="/personality-type/ISTJ">ISTJ</a> • <a href="/personality-type/ESFP">ESFP</a> • <a href="/personality-type/ESFJ">ESFJ</a> • <a href="/personality-type/ESTP">ESTP</a> • <a href="/personality-type/ESTJ">ESTJ</a></p>
+<p><b>Q. </b>Is this personality test really free?</p>
+<p><b>A. </b>You do not need to purchase or register to take this test and view an overview of your results. If you would like, you can purchase a more comprehensive full report for a small fee.</p>
+<p><b>Q. </b>Is this personality test accurate?</p>
+<p><b>A. </b>No personality test is accurate for everyone, but this test has been researched extensively to ensure it is valid and reliable, using a variety of statistical methods. These results are detailed in the <a href="https://www.truity.com/sites/default/files/fillpdf/typefinder-technicaldoc.pdf">TypeFinder technical report</a>. Most of our users describe their results as both accurate and insightful. To better understand what you can expect from the assessment, check out our <a href="/view/typefinder-new-reviews-page">customer reviews</a>. </p>
+<p><b>Q. </b>Will this test tell me which careers are best for my type?</p>
+<p><b>A. </b>This test has brief information about the careers for your type, but if you main goal is to find the right career for you, then we recommend you take the <a href="/test/type-finder-careers">TypeFinder for Career Planning</a>, which is specifically designed to help you find the right career for your type as well as your individual interests and strengths.</p>
+<p><b>Q. </b>I'm looking for the official MBTI® assessment. Is this it?</p>
+<p><b>A. </b>The MBTI® is the original assessment developed by Isabel Myers and Katharine Briggs. The TypeFinder® is based on Myers and Briggs' theory, but is not the same as the MBTI® assessment. Some key differences:</p>
+<div class="row">
+<div class="col-md-6">
+<p><b>The MBTI® Assessment</b></p>
+<ul>
+<li>Developed by Isabel Briggs Myers</li>
+<li>Based on theories of C.G. Jung, Katharine Briggs and Isabel Myers</li>
+<li>Measures 4 preferences of personality type</li>
+<li>Available through <a href="http://www.mbtireferralnetwork.org/">certified practitioners</a> or <a href="https://www.mbtionline.com/TaketheMBTI">online</a></li>
+<li>Results cost $49 (for <a href="https://www.mbtionline.com/TaketheMBTI">MBTI® Online</a>)</li>
+</ul>
+</div>
+<div class="col-md-6">
+<p><b>The TypeFinder®</b></p>
+<ul>
+<li>Developed by Truity</li>
+<li>Based on <a href="/myers-briggs/about-myers-briggs-personality-typing">Myers and Briggs' theory</a> and original empirical research</li>
+<li>Measures 4 dimensions and 23 facets of personality type</li>
+<li>Available online</li>
+<li>Results are free, or $19 for an expanded report</li>
+</ul>
+</div>
+</div>
+<p><em>Myers-Briggs Type Indicator, Myers-Briggs, and MBTI are registered trademarks of The Myers &amp; Briggs Foundation in the United States and other countries. Truity has no affiliation with the organizations publishing or holding rights to the MBTI® assessment.</em></p>
+</section>
+  </div>
+          </section>
+
+    
+  </div>
+</div>
 
 
-                <div align="center">
+  
+<footer class="footer wide">
+  <a class="logo footer-logo" href="/" title="Home">
+    <img src="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/truity_logo.png" alt="Home" />
+  </a>
+    <ul class="social-links list-inline">
+    <li>
+    <a  href="https://www.facebook.com/TruityPsych" title="Facebook" class="text-hide social-link-facebook b-lazy" data-src="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/social/sprite.png">
+      Facebook    </a>
+  </li>
+    <li>
+    <a  href="https://twitter.com/truitylabs" title="Twitter" class="text-hide social-link-twitter b-lazy" data-src="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/social/sprite.png">
+      Twitter    </a>
+  </li>
+    <li>
+    <a  href="https://www.youtube.com/user/personalitydesk/videos" title="YouTube" class="text-hide social-link-youtube b-lazy" data-src="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/social/sprite.png">
+      YouTube    </a>
+  </li>
+    <li>
+    <a  href="https://www.linkedin.com/in/mollyowens" title="LinkedIn" class="text-hide social-link-linkedin b-lazy" data-src="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/social/sprite.png">
+      LinkedIn    </a>
+  </li>
+    <li>
+    <a  href="https://www.pinterest.com/truitylabs/" title="Pinterest" class="text-hide social-link-pinterest b-lazy" data-src="https://d31u95r9ywbjex.cloudfront.net/sites/all/themes/bootstrap_truity/images/social/sprite.png">
+      Pinterest    </a>
+  </li>
+  </ul>
+        <div class="region region-footer">
+    <section id="block-menu-menu-utilities" class="block block-menu clearfix">
 
-                        <p>Personality Test</p>
-
-                        
-                        <table border="0" cellpadding="0" cellspacing="0" width="90%">
-
-                                <tr>
-
-                                        <td>
-                                               
-                                               <p><b>Answering these questions accurately requires honest reflection on how you really think, feel, and act <u>in general</u> and maybe taking the test on more than one occasion.</b> &nbsp;Some of the questions on this test measure personality traits differently than you might guess so trying to answer the test in a way you think would be ideal is just going to screw up your results, so just focus on being honest if you want the most accurate results.</p>
-						<div align="center">
-							<table border="0" cellpadding="0" cellspacing="0" bgcolor="white">
-								<tr>
-									<td>
-										<div align="center">
-											<b>PLEASE&nbsp;NOTE:&nbsp;SELECTING&nbsp;THE&nbsp;MIDDLE&nbsp;ANSWER MEANS A&nbsp;STATEMENT&nbsp;IS AROUND&nbsp;50%&nbsp;ACCURATE<br>
-												 </b></div>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<div align="center">
-											<table border='0' cellpadding='0' cellspacing='0' width='306'>
-												<tr>
-													<td>
-														<div align='center'>
-															
-														Very Inaccurate</div>
-													</td>
-													<td bgcolor='#c3c3c3'><input type=radio onClick='answers[1]=1;' value=0></td>
-													<td bgcolor='#d4d4d4'><input type=radio onClick='answers[1]=1;' value=0></td>
-													<td bgcolor='#e5e5e5'><input type=radio onClick='answers[1]=1;' value=0 checked></td>
-													<td bgcolor='#d4d4d4'><input type=radio onClick='answers[1]=1;' value=0></td>
-													<td bgcolor='#c3c3c3'><input type=radio onClick='answers[1]=1;' value=0></td>
-													<td>
-														<div align='center'>
-															
-														Very Accurate</div>
-													</td>
-												</tr>
-											</table>
-										</div>
-									</td>
-								</tr>
-							</table>
-						</div>
-                                                <form name="questions" action="" method="post">
-                                                <input type="hidden" name="action" value="result">
-                                                <input type="hidden" name="gender" value="male">
-																		<input type="hidden" name="ethnic" value="">
-                                                <input type="hidden" name="email" value="">
-																		<input type="hidden" name="email2" value="">
-                                                <input type="hidden" name="age" value="">
-                                                <input type="hidden" name="answer" value="">
-																		<input type="hidden" name="qq2" value="">
-																		<input type="hidden" name="qq3" value="">
-<input type="hidden" name="ktype" value="">
-
-<INPUT TYPE='HIDDEN' NAME='quest2' VALUE='6'/>
-<input type=hidden name=version value='Version 1.18'><input type=hidden name='testversion' value='1.18'><p>1) I value intimacy/intensity above all else.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer2' onclick='answers[1]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer2' onclick='answers[1]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer2' onclick='answers[1]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer2' onclick='answers[1]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer2' onclick='answers[1]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>2) I tend to think social graces are important.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer9' onclick='answers[2]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer9' onclick='answers[2]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer9' onclick='answers[2]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer9' onclick='answers[2]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer9' onclick='answers[2]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>3) I always need an intense connection to something (cause, interest, person). </p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer21' onclick='answers[3]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer21' onclick='answers[3]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer21' onclick='answers[3]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer21' onclick='answers[3]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer21' onclick='answers[3]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>4) My behavior and decisions are generally calculated to maximize my safety/security regardless of whether that makes me likable to others.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer13' onclick='answers[4]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer13' onclick='answers[4]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer13' onclick='answers[4]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer13' onclick='answers[4]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer13' onclick='answers[4]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>5) I dislike myself.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer23' onclick='answers[5]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer23' onclick='answers[5]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer23' onclick='answers[5]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer23' onclick='answers[5]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer23' onclick='answers[5]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>6) I am constantly moving toward that sense of intense stimulation in my relationships. </p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer1' onclick='answers[6]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer1' onclick='answers[6]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer1' onclick='answers[6]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer1' onclick='answers[6]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer1' onclick='answers[6]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>7) I am my body; I must take care of myself to survive.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer20' onclick='answers[7]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer20' onclick='answers[7]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer20' onclick='answers[7]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer20' onclick='answers[7]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer20' onclick='answers[7]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>8) My identity in the community is something I am aware of.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer10' onclick='answers[8]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer10' onclick='answers[8]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer10' onclick='answers[8]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer10' onclick='answers[8]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer10' onclick='answers[8]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>9) I'm very sexual</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer5' onclick='answers[9]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer5' onclick='answers[9]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer5' onclick='answers[9]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer5' onclick='answers[9]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer5' onclick='answers[9]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>10) Everything I do is intense: my interests are intense, my friendships are intense. </p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer16' onclick='answers[10]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer16' onclick='answers[10]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer16' onclick='answers[10]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer16' onclick='answers[10]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer16' onclick='answers[10]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>11) I have a constant awareness of the 'chemistry' between myself and others. </p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer22' onclick='answers[11]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer22' onclick='answers[11]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer22' onclick='answers[11]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer22' onclick='answers[11]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer22' onclick='answers[11]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>12) I come on very intensely, quickly, passionately.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer4' onclick='answers[12]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer4' onclick='answers[12]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer4' onclick='answers[12]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer4' onclick='answers[12]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer4' onclick='answers[12]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>13) Status/rank in society matters to some degree.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer7' onclick='answers[13]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer7' onclick='answers[13]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer7' onclick='answers[13]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer7' onclick='answers[13]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer7' onclick='answers[13]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>14) I derive energy from liking others and liking things.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer19' onclick='answers[14]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer19' onclick='answers[14]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer19' onclick='answers[14]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer19' onclick='answers[14]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer19' onclick='answers[14]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>15) I am very happy with my life.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer25' onclick='answers[15]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer25' onclick='answers[15]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer25' onclick='answers[15]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer25' onclick='answers[15]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer25' onclick='answers[15]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>16) I would rather be without a relationship or close friend than poor or a social reject.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer18' onclick='answers[16]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer18' onclick='answers[16]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer18' onclick='answers[16]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer18' onclick='answers[16]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer18' onclick='answers[16]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>17) My instinct is to mostly focus on satisfactory self-survival.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer11' onclick='answers[17]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer11' onclick='answers[17]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer11' onclick='answers[17]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer11' onclick='answers[17]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer11' onclick='answers[17]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>18) My reputation is very important to me.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer6' onclick='answers[18]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer6' onclick='answers[18]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer6' onclick='answers[18]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer6' onclick='answers[18]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer6' onclick='answers[18]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>19) I have a strong immediate reaction against anything that threatens to harm my safety in any way.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer14' onclick='answers[19]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer14' onclick='answers[19]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer14' onclick='answers[19]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer14' onclick='answers[19]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer14' onclick='answers[19]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>20) I err on the side of security even if it means playing it too safe or alternately confronting danger.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer15' onclick='answers[20]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer15' onclick='answers[20]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer15' onclick='answers[20]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer15' onclick='answers[20]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer15' onclick='answers[20]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>21) I care what other people in my community think of me.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer8' onclick='answers[21]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer8' onclick='answers[21]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer8' onclick='answers[21]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer8' onclick='answers[21]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer8' onclick='answers[21]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>22) Self-care an personal comfort are far more important to me than most people.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer12' onclick='answers[22]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer12' onclick='answers[22]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer12' onclick='answers[22]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer12' onclick='answers[22]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer12' onclick='answers[22]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>23) Not having sufficient physical comfort and material security is (or would be) very disorienting to me.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer17' onclick='answers[23]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer17' onclick='answers[23]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer17' onclick='answers[23]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer17' onclick='answers[23]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer17' onclick='answers[23]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>24) I am extremely sensual.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer3' onclick='answers[24]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer3' onclick='answers[24]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer3' onclick='answers[24]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer3' onclick='answers[24]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer3' onclick='answers[24]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-<p>25) I am very optimistic.</p>
-<p>
-<table border='0' cellpadding='0' cellspacing='0' width='306'><tr><td><div align='center'>Very Inaccurate</div></td><td bgcolor='#c3c3c3'><input type='radio' value='0.5' name='answer24' onclick='answers[25]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='1.5' name='answer24' onclick='answers[25]=1;'></td><td bgcolor='#e5e5e5'><input type='radio' value='2.5' name='answer24' onclick='answers[25]=1;'></td><td bgcolor='#d4d4d4'><input type='radio' value='3.5' name='answer24' onclick='answers[25]=1;'></td><td bgcolor='#c3c3c3'><input type='radio' value='4.5' name='answer24' onclick='answers[25]=1;'></td><td><div align='center'>Very Accurate</div></td></tr></table></p>
-                                        </td>
-
-                                </tr>
-
-                        </table>
-
-                        <p>
-<input type="submit" value="SUBMIT RESULTS" onClick="return verify()"></p>
-
-                        </form>
-                </div>
-
-</body>
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/blog" title="">Personality Blog</a></li>
+<li class="leaf"><a href="/page/about-us" title="About Us">About Us</a></li>
+<li class="leaf"><a href="https://truity.zendesk.com/hc/en-us" title="">Customer Service</a></li>
+<li class="leaf"><a href="/search" title="">Search</a></li>
+<li class="leaf"><a href="/page/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+<li class="leaf"><a href="/form/work-truity" title="Job Opportunities at Truity">Work for Truity</a></li>
+<li class="leaf"><a href="/form/personality-test-affiliate-program" title="Personality Test Affiliate Program">Affiliate Program</a></li>
+<li class="leaf"><a href="/content/career-assessments-charities-nonprofits-and-schools" title="Career Assessments for Charities, Nonprofits and Schools">Career Testing for Nonprofits</a></li>
+<li class="last leaf"><a href="/form/personality-test-api" title="">Personality Test API</a></li>
+</ul>
+</section>
+  </div>
+      <div class="copyright">Copyright © 2020, Truity. All rights reserved.</div></footer>
+  </body>
 </html>
